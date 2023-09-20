@@ -1,4 +1,9 @@
-
+/****************************************************************************************************************************************************
+* Objetivo: Calculo média de uma universidade
+* Data: 15/09/2023
+* Autor: Vitória Cardoso
+* Versão: 1.0
+****************************************************************************************************************************************************/
 var media = require('./modulo/mediaUniversidade')
 var readline = require('readline')
 var entradaDados = readline.createInterface({
