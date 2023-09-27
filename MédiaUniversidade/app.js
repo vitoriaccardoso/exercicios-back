@@ -58,12 +58,7 @@ entradaDados.question('Nome do aluno: ', function (nomeAluno) {
                                         let nota4 = n4
 
 
-                                        entradaDados.question('Nota 5: ', function (n5) {
-
-                                            let nota5 = n5
-
-
-                                            let mediaFinal = media.calcularMedia(nota1, nota2, nota3, nota4, nota5)
+                                            let mediaFinal = media.calcularMedia(nota1, nota2, nota3, nota4)
 
                                             if(mediaFinal != undefined){
                                                 let situacao = media.mostrarSituacao(mediaFinal)
@@ -101,4 +96,4 @@ entradaDados.question('Nome do aluno: ', function (nomeAluno) {
         })
     })
 
-})
+
